@@ -1,0 +1,19 @@
+[submodule "os-build/layers/meta-chirpstack/chirpstack"]
+	path = os-build/layers/meta-chirpstack/chirpstack
+	url = git@github.com:brocaar/chirpstack-gateway-os.git
+[submodule "os-build/layers/poky"]
+	path = os-build/layers/poky
+	url = git://git.yoctoproject.org/poky
+	branch = honister
+[submodule "os-build/layers/meta-openembedded"]
+	path = os-build/layers/meta-openembedded
+	url = git://git.openembedded.org/meta-openembedded
+	branch = honister
+[submodule "os-build/layers/meta-raspberrypi"]
+	path = os-build/layers/meta-raspberrypi
+	url = git@github.com:agherzan/meta-raspberrypi.git
+	branch = honister
+[submodule "os-build/layers/meta-clang"]
+	path = os-build/layers/meta-clang
+	url = git@github.com:kraj/meta-clang.git
+	branch = honister
